@@ -18,4 +18,10 @@ public static class UUIDConverter {
 		return new Guid(hash);
 	}
 
+	public static Guid GetOnlineUUIDFromPlayerAccount(string name)
+	{
+		//TO-DO
+		return new Guid();
+	}
+
 }
